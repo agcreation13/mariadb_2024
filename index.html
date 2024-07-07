@@ -1,0 +1,7 @@
+ CREATE DATABASE name_of_DB;
+ SHOW DATABASES;
+ CREATE USER 'user1'@localhost IDENTIFIED BY 'password1';
+ SELECT User FROM mysql.user;
+ <!-- GRANT ALL PRIVILEGES ON *.* TO 'user1'@localhost IDENTIFIED BY 'password1'; -->
+ GRANT ALL PRIVILEGES ON yourDB.* TO 'user1'@localhost;
+ FLUSH PRIVILEGES;
