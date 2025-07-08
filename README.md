@@ -1,0 +1,12 @@
+## HOW TO CREATE DATABASE OR USER IN MARIADB
+---
+
+## FOLLOW STEPS
+
+- CREATE DATABASE name_of_DB;
+- SHOW DATABASES;
+- CREATE USER 'user1'@localhost IDENTIFIED BY 'password1';
+- SELECT User FROM mysql.user;
+
+- GRANT ALL PRIVILEGES ON yourDB.* TO 'user1'@localhost;
+- FLUSH PRIVILEGES;
